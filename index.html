@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>To-Do-List</title>
 </head>
 
-<header>
-    <h1>To-do-List</h1>
-</header>
+
+
 
 
 <main>
     <img src="./img/list-2389219_1280-Photoroom.png" alt="to-do-list" class="img-todo">
+    <div class="title">
+        <h1>To-do-List</h1>
+    </div>
     <section class="input">
-        <form>
-            <input type="text" placeholder="" autofocus autocomplete="off">
-            <button class="add-todo">Adicionar Tarefa</button>
-            <ul class="todo-iten"></ul>
+        <form class="form">
+            <input type="text" placeholder="" autofocus autocomplete="off" name="inputValue">
+            <button class="add-todo">+</button>
+            <br>
+            <ul class="todo-item"></ul>
         </form>
     </section>
 </main>
