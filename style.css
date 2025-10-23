@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Listen';
+    src: url(./fonts/Listen\ Learn\ Rethink.ttf);
+}
+
+@font-face {
+    font-family: 'Credits';
+    src: url(./fonts/Directory.ttf);
+}
+
+
+
+body {
+    background-color: rgb(134, 130, 130);
+
+
+}
+
+header {
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: 100px 0;
+
+}
+
+header h1 {
+    font-size: 100px;
+    font-family: 'Listen';
+    color: rgb(44, 194, 199);
+}
+
+main {
+    /* background-color: antiquewhite; */
+    text-align: center;
+
+}
+
+.img-todo {
+    width: 400px;
+    display: inline-block
+}
+
+main form {
+    margin: 50px;
+}
+
+main input,
+.add-todo {
+    font-size: 30px;
+    color: gray;
+    font-family: 'Listen';
+    padding: 10px;
+}
+
+main input {
+    border-radius: 10px;
+}
+
+.add-todo:hover {
+    background-color: rgb(44, 194, 199);
+}
+
+footer {
+    margin-top: 300px;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Credits';
+    font-weight: 400;
+
+}
